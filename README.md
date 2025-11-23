@@ -192,7 +192,325 @@
       </ul>
     </div>
   </div>
-</nav> -->
+</nav> -->[style.css](https://github.com/user-attachments/files/23694974/style.css)
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Stack+Sans+Text:wght@200..700&display=swap');
+*{
+    padding: 0;[scrept.js](https://github.com/user-attachments/files/23694975/scrept.js)
+
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(251, 251, 199, 0.966);
+      
+}
+:root{
+}
+  .nav{
+  position: fixed;
+  }
+ .navbar{
+ 
+    /* width: 100%;
+    height: 100px; */
+    /* background-color: #f4f136; */
+    box-shadow: 0 4px 16px hsl(22, 100%, 8%,.2);
+      
+ }
+ .navbar a{
+     padding-left: 200px;
+ }
+.navbar-brand{
+   
+   font-size: 30px;
+   font-weight: 600;
+   margin-right: 300px;
+}
+
+.nav-item a{
+    color: black;
+    font-weight: 400; 
+  
+}
+ .navbar ul li a{
+    margin-right: 50px;
+  }
+
+.nav-item a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f4f136;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.nav-item a:hover::after{
+    width: 100%;
+
+}
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+}
+.count .text{
+    width: 300px;
+      font-size: 20px;
+}
+.count .imgg img {
+    padding-top: 150px;
+    width: 400px;
+ 
+}
+.count h1{
+    font-weight: 600;
+  font-family: "Aclonica", sans-serif;
+}
+button{
+    background-color: #ffc628;
+    border-radius: 20px;
+    padding: 8px 20px;
+    border: none;
+     transition: .5s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+  
+
+@media (max-width:575px) {
+      
+.count .imgg img {
+    display: none;
+}   
+.count .text {
+    padding-top: 300px;
+}
+.count h1 {
+    font-size: 60px;
+}
+p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+}
+
+
+
+/* ---------------------------------- */
+.about .cont{
+     width: 80%; 
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.about .text{
+    width: 600px;
+    height: 800px;
+    padding-top: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+}
+.about h1{
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.about .poteto{
+    width: 100px;
+    position: absolute;
+   right: 0;
+   
+   
+}
+.about .potet{
+       width: 100px;
+       rotate: 12deg;
+
+}
+.about .le{
+      width: 90px;
+}
+/* .card{
+    width: 80%;
+    margin: auto;
+    display: grid;
+   grid-template-columns: repeat(3,2fr);
+   gap: 1;
+    
+} */
+
+@media (max-width:575px) {
+    
+img {
+   
+    width: 200px;
+    padding-top: 200px;
+}
+p {
+  
+    width: 250px;
+    height: 200px;
+}
+
+
+
+
+
+
+}
+ /* ------------------------------------------------ */
+ .card .item img{
+    width: 150px;
+   margin-top: -100px;
+}
+.menu h1{
+    text-align: center;
+}
+.card{
+  
+     width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 20px;
+    width: 600px;
+    height: 500px;
+    margin-bottom: 100px; 
+      padding-top: 100px;
+      background-color: rgba(251, 251, 199, 0.966); 
+     border: none;
+}
+.item{
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #ffc628;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.item p{
+    font-weight: 600;
+}
+ .card.item.big img{
+    width: 10px;
+}
+@media (max-width:575px) {
+        
+.menu.card .item {
+    width: 10px;
+    height: 10px;
+     margin: 0;
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.item{
+       width: 200px;
+    height: 600px;
+    
+}
+
+
+}
+/* -------------------- */
+.delivery{
+    padding-top: 100px;
+     width: 80%;
+    margin: auto;
+    
+ 
+}
+.count .text{
+    width: 400px;
+    padding-bottom: 10px;
+}
+
+.delivery h1{
+    text-align: center; 
+    padding-top: 50px;
+}
+h3{
+     font-family: "Aclonica", sans-serif;
+}
+.contact {
+   
+    width: 50%;
+    margin-left: 450px;
+
+
+}
+.contact h1{
+    
+    text-align: center;
+    padding-bottom: 50px;
+}
+.containerr{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     background-color: #7f5539;
+     padding-top: 100px;
+   border-radius: 30px;
+
+}
+.containerr .delv2 img{
+    width: 300px;
+}
+@media 
+(max-width:575px) {
+    button{
+    margin-top: 90px;
+    }
+   .delivery {
+   
+ 
+    padding-top: 400px;
+
+}
+.delivery h1 {
+
+    padding-top: 500px;
+}
+.containerr {
+     display: block;
+    width: 500px;
+    padding-left: 200px;
+    padding-top: 0;
+    position: absolute;
+    right: 0;
+}
+img {
+
+    padding-top: 100px;
+ 
+    padding-right: 100px;
+    padding-bottom: 30px;
+
+
+}
+
+
+}
+/* --------------------------------- */
+footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+@media (max-width:575px) {
+    footer{
+          margin-top: 1300px;
+    }
+     
+
+
+
+}
 
 
 
